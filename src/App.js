@@ -17,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          learn some React
+          learn React
         </a>
         <p> Sample React Application hellow world </p>
       </header>
