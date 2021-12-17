@@ -2,8 +2,6 @@ name: Node Continuous Integration
 
 on:
   push:
-    branches: [master]
-
 
 jobs:
   test_pull_request:
