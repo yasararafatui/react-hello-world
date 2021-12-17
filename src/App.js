@@ -18,6 +18,7 @@ function App() {
         >
           learn React
         </a>
+        <p> Sample React Application </p>
         <pre> {JSON.stringify(audit, 2, null)} </pre>
       </header>
     </div>
