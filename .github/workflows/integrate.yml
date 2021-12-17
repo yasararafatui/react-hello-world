@@ -12,6 +12,7 @@ jobs:
         with:
           node-version: 12
       - uses: tangro/actions-audit@v1.1.32
+        with: post-comment: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_CONTEXT: ${{ toJson(github) }}
