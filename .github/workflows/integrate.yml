@@ -11,6 +11,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
+      - run: touch sample
+      - run: echo aws_host="gowtham" >> sample
       - run: npm ci
       - run: npm audit
       - run: npm test
