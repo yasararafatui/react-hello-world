@@ -12,7 +12,7 @@ jobs:
         with:
           node-version: 12
       - run: touch sample
-      - run: echo aws_host="gowtham" >> sample
+      - run: echo "gowtham" >> sample
       - run: npm ci
       - run: npm audit
       - run: npm test
