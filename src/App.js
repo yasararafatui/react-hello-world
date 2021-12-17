@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import audit from './auditreports/audit.json';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <pre> {JSON.stringify(audit, 2, null)} </pre>
       </header>
     </div>
   );
