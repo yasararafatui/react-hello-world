@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Hello World React World
+          Hello World Yasar Arafat
         </a>
       </header>
     </div>
