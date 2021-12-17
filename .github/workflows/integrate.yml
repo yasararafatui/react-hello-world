@@ -19,7 +19,7 @@ jobs:
           GITHUB_CONTEXT: ${{ toJson(github) }}
       - run: echo $GITHUB_CONTEXT
       - run: touch sample
-      - run: echo "gowtham" >> sample
+      - run: echo "gowtham1" >> sample
       - run: npm ci
       - run: npm audit || true
       - run: npm test
