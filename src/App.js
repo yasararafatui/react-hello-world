@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          CI and CD testing
+          learn by React
         </a>
         <pre> {JSON.stringify(audit, 2, null)} </pre>
       </header>
