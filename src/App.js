@@ -3,6 +3,7 @@ import './App.css';
 import audit from './auditreports/audit.json';
 
 function App() {
+  console.log({audit})
   return (
     <div className="App">
       <header className="App-header">
@@ -18,8 +19,7 @@ function App() {
         >
           learn React
         </a>
-        <p> Sample React Application </p>
-        <pre> {JSON.stringify(audit, 2, null)} </pre>
+        <p> Sample React Application hellow world </p>
       </header>
     </div>
   );
