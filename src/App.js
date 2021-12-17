@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Continous Integration Testing
+          CI and CD testing
         </a>
         <pre> {JSON.stringify(audit, 2, null)} </pre>
       </header>
