@@ -17,9 +17,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_CONTEXT: ${{ toJson(github) }}
-      - run: echo $GITHUB_CONTEXT
-      - run: touch sample
-      - run: echo "gowtham1" >> sample
+      - run: echo $GITHUB_TOKEN
       - run: npm ci
       - run: npm audit || true
       - run: npm test
