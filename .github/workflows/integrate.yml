@@ -20,7 +20,7 @@ jobs:
       - run: echo "$GITHUB_CONTEXT"
       - name: Show an environment variable
         run: |
-            echo "today is $GITHUB_CONTEXT"
+            echo "today is "
       - run: npm ci
       - run: npm audit || true
       - run: npm test
